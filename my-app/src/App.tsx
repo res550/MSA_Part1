@@ -38,7 +38,6 @@ class App extends React.Component<{},IState> {
         }
         else{
           response.json().then((data:any) => {
-            console.log(data);
             if(data.items.length>=1){
               this.setState({
                 ErrorMessage:"",
