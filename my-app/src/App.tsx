@@ -34,7 +34,7 @@ class App extends React.Component<{},IState> {
     
     .then((response : any) => {
         if(!response.ok){
-          this.setState({SubscriberCount: response.statusText})
+          this.setState({ErrorMessage: response.statusText})
         }
         else{
           response.json().then((data:any) => {
