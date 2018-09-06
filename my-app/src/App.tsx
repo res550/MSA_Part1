@@ -1,6 +1,5 @@
 import * as React from 'react';
 import './App.css';
-import logo from './W0QgS4N.png';
 import Button from '@material-ui/core/Button';
 import Tv from '@material-ui/icons/Tv';
 import Input from '@material-ui/core/Input';
