@@ -6,6 +6,7 @@ import Tv from '@material-ui/icons/Tv';
 import Input from '@material-ui/core/Input';
 import CloudUpload from '@material-ui/icons/CloudUpload'
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import Heading from "./Components/Heading"
 
 interface IState{
   ChannelID: any,
@@ -69,11 +70,7 @@ class App extends React.Component<{},IState> {
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Reshads MSA Application</h1>
-        </header>
-        <h2 className="Intro">Welcome to my Application which takes a youtube Channel name and returns some channel Information</h2>
+        <Heading/>
         <label>
           <Input
             placeholder = "UserName for the channel" 
